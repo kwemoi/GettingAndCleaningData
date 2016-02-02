@@ -1,5 +1,5 @@
 ==================================================================
-Assignment: Getting and Cleaning Data Course Project
+#Assignment: Getting and Cleaning Data Course Project
 
 for the course "Getting and Cleaning Data"
 of "Data Science Specialization" specialization.
@@ -7,7 +7,7 @@ of "Data Science Specialization" specialization.
 By Yiannis Manatos, Feb 1 2016
 ==================================================================
 
-The dataset includes the following files:
+###The dataset includes the following files:
 =========================================
 
 - 'README.MD' (this file)

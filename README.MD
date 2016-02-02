@@ -1,8 +1,8 @@
 ==================================================================
 #Assignment: Getting and Cleaning Data Course Project
 
-for the course "Getting and Cleaning Data"
-of "Data Science Specialization" specialization.
+for the 'Getting and Cleaning Data' course
+ of 'Data Science Specialization' specialization.
 ==================================================================
 By Yiannis Manatos, Feb 1 2016
 ==================================================================

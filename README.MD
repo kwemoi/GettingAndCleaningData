@@ -1,4 +1,4 @@
-## Assignment: Getting and Cleaning Data Course Project
+# Assignment: Getting and Cleaning Data Course Project
 
  for the 'Getting and Cleaning Data' course
   of 'Data Science Specialization' specialization.
@@ -10,8 +10,7 @@ Reference:
   - http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
     
-### The dataset includes the following files:
-=========================================
+## The dataset includes the following files:
 
 - 'README.MD' (this file)
 

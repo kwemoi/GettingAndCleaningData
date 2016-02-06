@@ -15,7 +15,7 @@ run_analysis <- function()
     # Read activity labels
     activity_labels <- read_data(datapath, "activity_labels.txt")
     names(activity_labels) <- c("Id", "ActivityLabel")
-    # Read activity labels
+    # Read features
     features <- read_data(datapath, "features.txt")
     names(features) <- c("Id", "FeatureName")
     

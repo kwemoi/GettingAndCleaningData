@@ -111,13 +111,13 @@ The following units are used per variables:
 
 * t/f-BodyAcc-XYZ: standard gravity units (g)
 * t/f-GravityAcc-XYZ: standard gravity units (g)
-* t/f-BodyAccJerk-XYZ: standard gravity units (g) / second
-* t/f-BodyGyro-XYZ: radians / second
-* t/f-BodyGyroJerk-XYZ: radians / second<sup>2</sup>
+* t/f-BodyAccJerk-XYZ: standard gravity units (g) per second
+* t/f-BodyGyro-XYZ: radians per second
+* t/f-BodyGyroJerk-XYZ: radians per second<sup>2</sup>
 * t/f-BodyAccMag: standard gravity units (g), absolute value
 * t/f-GravityAccMag: standard gravity units (g), absolute value
-* t/f-BodyAccJerkMag: standard gravity units (g) / second, absolute value
-* t/f-BodyGyroMag: radians / second, absolute value
-* t/f-BodyGyroJerkMag: radians / second<sup>2</sup>, absolute value
+* t/f-BodyAccJerkMag: standard gravity units (g) per second, absolute value
+* t/f-BodyGyroMag: radians per second, absolute value
+* t/f-BodyGyroJerkMag: radians per second<sup>2</sup>, absolute value
 
 

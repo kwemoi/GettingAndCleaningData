@@ -29,12 +29,12 @@ The measurements are finally averaged and grouped by Subject and Activity.
 The Subject is a number: 1-30 referring to participating individuals.
 
 The Activity is one of the following:
-    1. LAYING
-    1. SITTING
-    1. STANDING
-    1. WALKING
-    1. WALKING_DOWNSTAIRS
-    1. WALKING_UPSTAIRS
+  1. LAYING
+  1. SITTING
+  1. STANDING
+  1. WALKING
+  1. WALKING_DOWNSTAIRS
+  1. WALKING_UPSTAIRS
 
 Full variables/features produced (68 variable):
 	1. Subject

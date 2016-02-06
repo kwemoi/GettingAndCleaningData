@@ -98,25 +98,25 @@ run_analysis <- function()
     funs <- funs(mean(., na.rm = TRUE))
 
     # Build the independent tidy data set 
-    tidy_sum <- dataextract %>% 
-                group_by(Subject, Activity) %>% 
-                summarise_each(funs(mean))
+    tidy_data <- dataextract %>% 
+                 group_by(Subject, Activity) %>% 
+                 summarise_each(funs(mean))
 
     # Build new features names with a '.mean' sufix
     newTidyFeatNames <- c(c("Subject", "Activity"), 
                           paste(feats2use$FeatureName, '.mean', sep = "") )
     # Set the new tidy features names
-    names(tidy_sum) <- newTidyFeatNames
+    names(tidy_data) <- newTidyFeatNames
     
     # Save the tidy data.frame
-    tidy_filename <- "tidy_sum.txt"
-    write.table(tidy_sum, file = tidy_filename, append = FALSE, 
+    tidy_filename <- "tidy_data.txt"
+    write.table(tidy_data, file = tidy_filename, append = FALSE, 
                 sep = " ", dec = ".", 
-                col.names = FALSE, row.names = FALSE)
+                col.names = TRUE, row.names = FALSE)
     print(paste("File", tidy_filename, "was written."))
     # Build and save the tidy variable-names
     tidy_vars_filename <- "tidy_variables.txt"
-    vars <- names(tidy_sum)
+    vars <- names(tidy_data)
     varnames <- data.frame(id = 1:length(vars), variable = vars)
     write.table(varnames, file = tidy_vars_filename, append = FALSE, 
                 quote = FALSE, 

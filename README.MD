@@ -1,10 +1,9 @@
 ## Assignment: Getting and Cleaning Data Course Project
 
-## for the 'Getting and Cleaning Data' course
-##  of 'Data Science Specialization' specialization.
+ for the 'Getting and Cleaning Data' course
+  of 'Data Science Specialization' specialization.
 
-### By Yiannis Manatos, Feb 1 2016
-==================================================================
+#### By Yiannis Manatos, Feb 1 2016
 
 This project uses data from user activity using a smartphone accelerometer data.
 Reference:
@@ -25,9 +24,9 @@ Reference:
 - 'getdata_projectfiles_UCI HAR Dataset': Input data used.
 
 
-## run_analysis.R
+## 'run_analysis.R' R script
 
-  R script performs the following steps:
+  The R script performs the following steps:
 
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement.
